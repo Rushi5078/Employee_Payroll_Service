@@ -46,7 +46,7 @@ public class EmployeePayrollService
 
 	public static void main(String[] args)
 	{
-        System.out.println("---------- Welcome To Employee Payroll Application ----------\n");
+        System.out.println("---------- Welcome To Employee Payroll Application ---------\n");
 		ArrayList<EmployeePayRollData> employeePayrollList = new ArrayList<EmployeePayRollData>();
 		EmployeePayrollService employeePayrollService = new EmployeePayrollService(employeePayrollList);
 		Scanner consoleInputReader = new Scanner(System.in);
